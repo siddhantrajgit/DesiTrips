@@ -11,15 +11,13 @@ DesiTrips is designed to help users explore popular destinations, discover trave
 > Add your GitHub Pages link here after deployment.
 
 Example:
-https://yourusername.github.io/desitrips/
+https://siddhantrajgit.github.io/DesiTrips/
 
 ---
 
 ## 📸 Preview
 
 <img width="100%" alt="DesiTrips Preview" src="images/preview.png">
-
-*(Replace with a screenshot of your website.)*
 
 ---
 
@@ -86,7 +84,7 @@ DesiTrips/
 1. Download or Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/desitrips.git
+git clone https://github.com/siddhantrajgit/DesiTrips.git
 ```
 
 2. Open the project folder.
@@ -110,32 +108,6 @@ This project demonstrates:
 - Form Inputs
 - DOM Manipulation
 - Event Handling
-
----
-
-## 📸 Screenshots
-
-### 🏠 Home Page
-
-(Add Screenshot)
-
----
-
-### 🌍 Destinations
-
-(Add Screenshot)
-
----
-
-### ✈ Tour Packages
-
-(Add Screenshot)
-
----
-
-### 📱 Responsive View
-
-(Add Screenshot)
 
 ---
 
