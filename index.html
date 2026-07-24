@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DesiTrips | Explore India & The World</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header id="header">
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <i class="fa-solid fa-earth-asia"></i>
+                <span>DesiTrips</span>
+            </div>
+
+            <ul>
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#destinations">Destinations</a></li>
+
+                <li><a href="#packages">Packages</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <a href="#" class="book-btn">
+
+                Book Now
+
+            </a>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <span class="tag">
+
+                ✈ India's Trusted Travel Partner
+
+            </span>
+
+            <h1>
+
+                Explore India.
+
+                <br>
+
+                Discover The World.
+
+            </h1>
+
+            <p>
+
+                Discover amazing destinations, luxury hotels,
+                unforgettable experiences and affordable travel packages.
+
+            </p>
+
+            <!-- Search Box -->
+
+            <div class="search-box">
+
+                <div class="field">
+
+                    <label>
+
+                        Destination
+
+                    </label>
+
+                    <select id="destination">
+
+                        <option value="">Choose Destination</option>
+
+                        <option>Goa</option>
+
+                        <option>Manali</option>
+
+                        <option>Jaipur</option>
+
+                        <option>Kerala</option>
+
+                        <option>Bali</option>
+
+                        <option>Dubai</option>
+
+                    </select>
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Check In
+
+                    </label>
+
+                    <input type="date" id="checkin">
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Check Out
+
+                    </label>
+
+                    <input type="date" id="checkout">
+
+                </div>
+
+                <div class="field">
+
+                    <label>
+
+                        Travellers
+
+                    </label>
+
+                    <select id="travellers">
+
+                        <option>1 Adult</option>
+
+                        <option>2 Adults</option>
+
+                        <option>3 Adults</option>
+
+                        <option>Family</option>
+
+                    </select>
+
+                </div>
+
+                <button onclick="searchTrip()">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    Search
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= STATS ================= -->
+
+    <section class="stats">
+
+        <div class="stat">
+
+            <h2>150+</h2>
+
+            <p>Destinations</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h2>500+</h2>
+
+            <p>Tour Packages</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h2>25K+</h2>
+
+            <p>Happy Travellers</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h2>4.9★</h2>
+
+            <p>Customer Rating</p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= DESTINATIONS ================= -->
+
+    <section class="destinations" id="destinations">
+
+        <div class="section-title">
+
+            <h2>
+
+                Popular Destinations
+
+            </h2>
+
+            <p>
+
+                Handpicked destinations loved by thousands of travellers.
+
+            </p>
+
+        </div>
+
+        <div class="cards">
+
+            <!-- Goa -->
+
+            <div class="card">
+
+                <img src="images/goa.jpg">
+
+                <div class="card-content">
+
+                    <h3>Goa</h3>
+
+                    <p>🏖 Beaches • Nightlife • Water Sports</p>
+
+                    <span>Starting from ₹8,999</span>
+
+                </div>
+
+            </div>
+
+            <!-- Manali -->
+
+            <div class="card">
+
+                <img src="images/manali.jpg">
+
+                <div class="card-content">
+
+                    <h3>Manali</h3>
+
+                    <p>🏔 Snow • Adventure • Mountains</p>
+
+                    <span>Starting from ₹10,999</span>
+
+                </div>
+
+            </div>
+
+            <!-- Kerala -->
+
+            <div class="card">
+
+                <img src="images/kerala.jpg">
+
+                <div class="card-content">
+
+                    <h3>Kerala</h3>
+
+                    <p>🌴 Backwaters • Nature • Resorts</p>
+
+                    <span>Starting from ₹13,999</span>
+
+                </div>
+
+            </div>
+
+                        <!-- Jaipur -->
+
+            <div class="card">
+
+                <img src="images/jaipur.jpg" alt="Jaipur">
+
+                <div class="card-content">
+
+                    <h3>Jaipur</h3>
+
+                    <p>🏰 Palaces • Heritage • Culture</p>
+
+                    <span>Starting from ₹7,499</span>
+
+                </div>
+
+            </div>
+
+            <!-- Bali -->
+
+            <div class="card">
+
+                <img src="images/bali.jpg" alt="Bali">
+
+                <div class="card-content">
+
+                    <h3>Bali</h3>
+
+                    <p>🌊 Beaches • Luxury • Honeymoon</p>
+
+                    <span>Starting from ₹34,999</span>
+
+                </div>
+
+            </div>
+
+            <!-- Dubai -->
+
+            <div class="card">
+
+                <img src="images/dubai.jpg" alt="Dubai">
+
+                <div class="card-content">
+
+                    <h3>Dubai</h3>
+
+                    <p>🏙 Luxury • Desert Safari • Shopping</p>
+
+                    <span>Starting from ₹42,999</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= WHY CHOOSE US ================= -->
+
+    <section class="why-us" id="about">
+
+        <div class="section-title">
+
+            <h2>Why Choose DesiTrips?</h2>
+
+            <p>
+
+                We make travelling easy, affordable and unforgettable.
+
+            </p>
+
+        </div>
+
+        <div class="features">
+
+            <div class="feature">
+
+                <i class="fa-solid fa-wallet"></i>
+
+                <h3>Affordable Packages</h3>
+
+                <p>
+
+                    Budget-friendly domestic and international trips.
+
+                </p>
+
+            </div>
+
+            <div class="feature">
+
+                <i class="fa-solid fa-headset"></i>
+
+                <h3>24×7 Support</h3>
+
+                <p>
+
+                    Our travel experts are always available.
+
+                </p>
+
+            </div>
+
+            <div class="feature">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <h3>Secure Booking</h3>
+
+                <p>
+
+                    Safe payments with instant confirmation.
+
+                </p>
+
+            </div>
+
+            <div class="feature">
+
+                <i class="fa-solid fa-star"></i>
+
+                <h3>Top Rated</h3>
+
+                <p>
+
+                    Trusted by over 25,000 happy travellers.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= TOUR PACKAGES ================= -->
+
+    <section class="packages" id="packages">
+
+        <div class="section-title">
+
+            <h2>Trending Tour Packages</h2>
+
+            <p>
+
+                Best-selling holiday packages with premium hotels and experiences.
+
+            </p>
+
+        </div>
+
+        <div class="cards">
+
+            <!-- Package 1 -->
+
+            <div class="card">
+
+                <img src="images/goa-package.jpg" alt="Goa Package">
+
+                <div class="card-content">
+
+                    <h3>Goa Escape</h3>
+
+                    <p>4 Days • 3 Nights</p>
+
+                    <h4>₹8,999</h4>
+
+                    <a href="#" class="btn">
+
+                        Book Now
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Package 2 -->
+
+            <div class="card">
+
+                <img src="images/manali-package.jpg" alt="Manali Package">
+
+                <div class="card-content">
+
+                    <h3>Manali Adventure</h3>
+
+                    <p>5 Days • 4 Nights</p>
+
+                    <h4>₹10,999</h4>
+
+                    <a href="#" class="btn">
+
+                        Book Now
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Package 3 -->
+
+            <div class="card">
+
+                <img src="images/kerala-package.jpg" alt="Kerala Package">
+
+                <div class="card-content">
+
+                    <h3>Kerala Retreat</h3>
+
+                    <p>5 Days • 4 Nights</p>
+
+                    <h4>₹13,999</h4>
+
+                    <a href="#" class="btn">
+
+                        Book Now
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Package 4 -->
+
+            <div class="card">
+
+                <img src="images/bali-package.jpg" alt="Bali Package">
+
+                <div class="card-content">
+
+                    <h3>Bali Paradise</h3>
+
+                    <p>6 Days • 5 Nights</p>
+
+                    <h4>₹34,999</h4>
+
+                    <a href="#" class="btn">
+
+                        Book Now
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+        <!-- ================= TESTIMONIALS ================= -->
+
+    <section class="testimonials">
+
+        <div class="section-title">
+
+            <h2>What Our Travelers Say</h2>
+
+            <p>
+                Thousands of happy customers trust DesiTrips for memorable vacations.
+            </p>
+
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <img src="images/user1.jpg" alt="Customer">
+
+                <h3>Rahul Sharma</h3>
+
+                <h4>⭐⭐⭐⭐⭐</h4>
+
+                <p>
+                    "Amazing experience! Everything from hotel booking to sightseeing
+                    was perfectly organized. Highly recommended."
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="images/user2.jpg" alt="Customer">
+
+                <h3>Priya Verma</h3>
+
+                <h4>⭐⭐⭐⭐⭐</h4>
+
+                <p>
+                    "Our Goa honeymoon package was incredible.
+                    Great hotels and excellent customer support."
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="images/user3.jpg" alt="Customer">
+
+                <h3>Amit Singh</h3>
+
+                <h4>⭐⭐⭐⭐⭐</h4>
+
+                <p>
+                    "Affordable pricing with premium services.
+                    Will definitely book my next trip with DesiTrips."
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= TRAVEL GALLERY ================= -->
+
+    <section class="gallery">
+
+        <div class="section-title">
+
+            <h2>Travel Gallery</h2>
+
+            <p>
+                Moments captured by our happy travelers around the world.
+            </p>
+
+        </div>
+
+        <div class="gallery-grid">
+
+            <img src="images/gallery1.jpg" alt="Gallery">
+
+            <img src="images/gallery2.jpg" alt="Gallery">
+
+            <img src="images/gallery3.jpg" alt="Gallery">
+
+            <img src="images/gallery4.jpg" alt="Gallery">
+
+            <img src="images/gallery5.jpg" alt="Gallery">
+
+            <img src="images/gallery6.jpg" alt="Gallery">
+
+        </div>
+
+    </section>
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section class="newsletter">
+
+        <div class="newsletter-content">
+
+            <h2>
+
+                Get Exclusive Travel Deals
+
+            </h2>
+
+            <p>
+
+                Subscribe to receive the latest offers,
+                discounts and travel inspiration directly
+                in your inbox.
+
+            </p>
+
+            <form>
+
+                <input
+                    type="email"
+                    placeholder="Enter your email address"
+                >
+
+                <button type="submit">
+
+                    Subscribe
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+        <!-- ================= FOOTER ================= -->
+
+    <footer id="contact">
+
+        <div class="footer-container">
+
+            <div class="footer-box">
+
+                <h2>
+                    <i class="fa-solid fa-earth-asia"></i>
+                    DesiTrips
+                </h2>
+
+                <p>
+                    Explore India and the world with affordable travel packages,
+                    premium stays and unforgettable experiences.
+                </p>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#destinations">Destinations</a></li>
+
+                    <li><a href="#packages">Packages</a></li>
+
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Popular Destinations</h3>
+
+                <ul>
+
+                    <li>Goa</li>
+
+                    <li>Manali</li>
+
+                    <li>Kerala</li>
+
+                    <li>Jaipur</li>
+
+                    <li>Bali</li>
+
+                    <li>Dubai</li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Contact Us</h3>
+
+                <p>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Connaught Place, New Delhi, India
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    +91 98765 43210
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    support@desitrips.com
+
+                </p>
+
+                <div class="social-icons">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            <p>
+
+                © 2026 DesiTrips. All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
