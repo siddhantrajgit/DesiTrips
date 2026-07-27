@@ -8,9 +8,6 @@ DesiTrips is designed to help users explore popular destinations, discover trave
 
 ## 🚀 Live Demo
 
-> Add your GitHub Pages link here after deployment.
-
-Example:
 https://siddhantrajgit.github.io/DesiTrips/
 
 ---
