@@ -32,3 +32,7 @@ Have a wonderful journey! ❤️`
     );
 
 }
+
+function bookTrip(destination) {
+    alert("✈️ Booking Summary\n\n📍 Destination : " + destination + "\n\n🎉 Thank you for choosing DesiTrips!\n\nOur travel expert will contact you shortly.\nHave a wonderful journey! ❤️");
+}
