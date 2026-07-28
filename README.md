@@ -1,8 +1,8 @@
 # 🌍 DesiTrips – Travel & Tourism Website
 
-A modern, responsive travel website built using **HTML, CSS, and JavaScript** as part of the **ApexPlanet Web Development Internship – Task 1**.
+A modern, responsive travel and tourism website built using **HTML, CSS, and JavaScript** as part of the **ApexPlanet Web Development Internship (Task 1 & Task 2)**.
 
-DesiTrips is designed to help users explore popular destinations, discover travel packages, and simulate a basic travel booking experience through an interactive search form.
+DesiTrips helps users discover popular destinations, explore tour packages, contact travel experts, and organize their travel essentials using an interactive **Travel Planner**.
 
 ---
 
@@ -18,45 +18,91 @@ https://siddhantrajgit.github.io/DesiTrips/
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-- 🌍 Modern travel website UI
-- 📱 Fully Responsive Design
-- 🧭 Easy Navigation
-- 🔍 Travel Search Form
-- 🏖 Popular Destinations Section
-- ✈ Trending Tour Packages
-- ⭐ Customer Testimonials
-- 🖼 Travel Gallery
-- 📧 Newsletter Subscription Section
-- 📞 Contact & Footer Section
-- 💻 Basic JavaScript Interactivity
-- 🎨 Clean and Modern Design
+### 🌍 Home Page
+- Modern Hero Section
+- Travel Booking Search Form
+- Popular Destinations
+- Trending Tour Packages
+- Why Choose Us
+- Customer Testimonials
+- Travel Gallery
+- Newsletter Subscription
+- Responsive Footer
+
+### 📞 Contact Page
+- Professional Contact Form
+- Form Validation using JavaScript
+- Contact Information Cards
+- Embedded Google Map
+- Responsive Layout
+
+### 🧳 Travel Planner
+- Add Travel Checklist Items
+- Mark Tasks as Completed
+- Delete Tasks
+- Dynamic DOM Manipulation
 
 ---
 
-## 🛠 Technologies Used
+# 🎯 Internship Task 2 Features
+
+✔ Responsive Web Design
+
+✔ Contact Form
+
+✔ JavaScript Form Validation
+
+✔ Dynamic Travel Planner
+
+✔ DOM Manipulation
+
+✔ CSS Grid
+
+✔ Flexbox
+
+✔ Media Queries
+
+✔ Interactive User Experience
+
+---
+
+# 🛠 Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
+- CSS Grid
+- Flexbox
+- Media Queries
 - Google Fonts
 - Font Awesome
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
+```text
 DesiTrips/
 │
 ├── index.html
+├── contact.html
+├── planner.html
+│
 ├── style.css
+├── contact.css
+├── planner.css
+│
 ├── script.js
+├── validation.js
+├── planner.js
+│
 ├── README.md
 │
 └── images/
     ├── hero.jpg
+    ├── contact-banner.jpg
     ├── goa.jpg
     ├── manali.jpg
     ├── kerala.jpg
@@ -71,88 +117,143 @@ DesiTrips/
     ├── gallery6.jpg
     ├── user1.jpg
     ├── user2.jpg
-    └── user3.jpg
+    ├── user3.jpg
+    └── preview.png
 ```
 
 ---
 
-## ⚙️ How to Run
+# 💻 JavaScript Functionality
 
-1. Download or Clone the repository
+### Travel Booking
+
+- Booking Summary Popup
+- Input Validation
+- Interactive Alerts
+
+### Contact Form
+
+- Name Validation
+- Email Validation
+- Phone Number Validation
+- Destination Validation
+- Message Validation
+- Success Message
+
+### Travel Planner
+
+- Add New Checklist Items
+- Mark Tasks as Completed
+- Delete Tasks
+- Real-time DOM Updates
+
+---
+
+# 📱 Responsive Design
+
+The website is fully responsive and optimized for:
+
+- 💻 Desktop
+- 📱 Mobile
+- 📲 Tablet
+
+Responsive techniques include:
+
+- CSS Grid
+- Flexbox
+- Media Queries
+
+---
+
+# 📚 Learning Outcomes
+
+This project demonstrates practical knowledge of:
+
+- Semantic HTML5
+- Modern CSS3
+- Responsive Web Design
+- CSS Grid
+- Flexbox
+- Forms & Input Elements
+- JavaScript DOM Manipulation
+- Event Handling
+- Form Validation
+- Dynamic Content Creation
+- User Interface Design
+
+---
+
+# ⚙️ How to Run
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/siddhantrajgit/DesiTrips.git
 ```
 
-2. Open the project folder.
+### Navigate to the Project
 
-3. Open **index.html** in your browser.
+```bash
+cd DesiTrips
+```
 
-No additional setup is required.
+### Open
 
----
+Simply open **index.html** in your browser.
 
-## 📚 Learning Objectives
-
-This project demonstrates:
-
-- Semantic HTML
-- Responsive CSS
-- CSS Grid
-- Flexbox
-- Hover Effects
-- Basic JavaScript
-- Form Inputs
-- DOM Manipulation
-- Event Handling
+No installation or dependencies are required.
 
 ---
 
-## 🎯 Future Improvements
+# 🚀 Future Improvements
 
+- User Authentication
 - Online Booking System
-- Login & Signup
-- Payment Gateway
-- Destination Filters
-- Search Functionality
+- Payment Gateway Integration
+- Destination Search & Filters
 - Dark Mode
 - Travel Blog
-- Weather API
-- Google Maps Integration
+- Wishlist Feature
+- Local Storage for Travel Planner
+- Weather API Integration
+- Booking Confirmation Page
 
 ---
 
-## 👨‍💻 Developed By
+# 👨‍💻 Developed By
 
 **Siddhant Raj**
 
-B.Tech CSE Student
+🎓 B.Tech – Computer Science & Engineering
 
-Frontend Developer
+💻 Frontend Developer
 
 ---
 
-## 📬 Contact
+# 📬 Connect With Me
 
-GitHub:
+### GitHub
+
 https://github.com/siddhantrajgit
 
-LinkedIn:
+### LinkedIn
+
 https://www.linkedin.com/in/siddhant-raj-7ab257250/
 
-Email:
+### Email
+
 siddhantraj284@gmail.com
 
 ---
 
-## ⭐ If you like this project
+# ⭐ Support
 
-Give it a ⭐ on GitHub!
+If you found this project helpful, consider giving it a **⭐ Star** on GitHub!
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is created for educational and internship purposes.
+This project was developed for learning and internship purposes under the **ApexPlanet Web Development Internship**.
 
-MIT License.
+Licensed under the **MIT License**.
